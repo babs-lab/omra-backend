@@ -1,0 +1,40 @@
+# ==========================
+# Secrets — ne jamais pusher
+# ==========================
+mot-depasse-application.txt
+
+# ==========================
+# Dépôt frontend séparé
+# (le frontend possède son propre dépôt git, poussé depuis frontend/)
+# ==========================
+frontend/
+
+# ==========================
+# Dépendances / builds
+# ==========================
+.opencode/node_modules/
+node_modules/
+
+# ==========================
+# Logos de marques partenaires (marques détenues par des tiers)
+# ==========================
+Voco_Hotels_Logo.png
+Mövenpick-Logo.png
+valy+(1).svg
+szwiss-al-maqam.png
+
+# ==========================
+# Système / outils
+# ==========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# ==========================
+# Logs / temporaires
+# ==========================
+*.log
+*.tmp
