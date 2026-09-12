@@ -14,6 +14,8 @@ return [
         . 'tableprops tablerowprops tablecellprops | tableinsertrowbefore tableinsertrowafter tabledeleterow | '
         . 'tableinsertcolbefore tableinsertcolafter tabledeletecol | '
         . 'fullscreen preview print visualblocks visualchars code | help',
-    'options' => [],
+    'options' => [
+    'license_key' => 'gpl',
+    ],
     'callbacks' => [],
 ];
