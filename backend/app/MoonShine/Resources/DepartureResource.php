@@ -73,11 +73,8 @@ class DepartureResource extends ModelResource
             Wysiwyg::make('Transport', 'transport'),
             Image::make('Image transport', 'transport_image')
                 ->disk('public')
-                ->dir('departures'),
-                Image::make('Image transport', 'transport_image')
-                    ->disk('public')
-                    ->dir('departures')
-                    ->allowedExtensions(['jpg', 'jpeg', 'png', 'webp']),
+                ->dir('departures')
+                ->allowedExtensions(['jpg', 'jpeg', 'png', 'webp']),
             ]),
             Box::make('Inclus', [
                 Json::make('Inclus', 'inclus')
