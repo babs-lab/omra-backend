@@ -16,7 +16,7 @@ class SectionController extends Controller
         $target = $request->query('target', 'homepage');
 
         $sections = Section::active()
-            ->forPage($target)
+            ->forTargetPage($target)
             ->ordered()
             ->get(['title', 'slug', 'content', 'target_page', 'position', 'style']);
 

@@ -29,7 +29,7 @@ class Section extends Model
         return $query->where('is_active', true);
     }
 
-    public function scopeForPage(Builder $query, string $targetPage): Builder
+    public function scopeForTargetPage(Builder $query, string $targetPage): Builder
     {
         return $query->where('target_page', $targetPage);
     }
