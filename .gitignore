@@ -10,10 +10,34 @@ mot-depasse-application.txt
 frontend/
 
 # ==========================
-# Dépendances / builds
+# Outils / workflows locaux (non versionnés)
 # ==========================
-.opencode/node_modules/
-node_modules/
+.agents/
+.opencode/
+skills-lock.json
+
+# ==========================
+# Specs internes de dev
+# ==========================
+docs/architecture/
+openspec/
+
+# ==========================
+# Assets Moonshine publiés (générés par vendor:publish — à reproduire sur le serveur)
+# ==========================
+backend/public/vendor/
+
+# ==========================
+# Designs & images de marque (livrés hors repo)
+# ==========================
+Charte_graphique.jpeg
+Gestion des départs.docx
+LOGO_Oumra_Teranga .png
+OUMRA TERANGA vectorisé.pdf
+OUMRA_TERANGA_vector.pdf
+OUMRA_TERANGA_vect.svg
+WhatsApp Image *.jpeg
+kaabaa.jpg
 
 # ==========================
 # Logos de marques partenaires (marques détenues par des tiers)
@@ -22,6 +46,14 @@ Voco_Hotels_Logo.png
 Mövenpick-Logo.png
 valy+(1).svg
 szwiss-al-maqam.png
+
+# ==========================
+# Dépendances / builds
+# ==========================
+.opencode/node_modules/
+node_modules/
+backend/vendor/
+backend/node_modules/
 
 # ==========================
 # Système / outils
